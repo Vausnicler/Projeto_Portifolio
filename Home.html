@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Meu site</title>
+</head>
+<style>
+html {
+scroll-behavior: smooth;     
+}    
+body {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+footer {
+   background-color: black;
+   padding: 30px;
+   color: white; 
+}
+#TopMenu{
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+}
+#TopMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#TopMenu li :first-child {
+    margin-right: auto;
+}
+.section1 {
+    display: flex;
+    height: 33vh;
+    background-color: rgb(41, 131, 33);
+}
+.Centralize {
+    margin: auto;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    height: 33vh;
+    background-color: white;
+}
+.section3 {
+    display: flex;
+    height: 33vh;
+    background-color:rgb(202, 201, 201);
+}
+.ImagemProjeto {
+    width: 15vw;
+    height: 15vw;
+    padding-left: 15px;
+}
+.botaovermelho {
+    background-color: rgb(171, 221, 171);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+</style>
+<body>
+    <nav> 
+        <ul id="TopMenu">
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1"> 
+        <div class="Centralize">
+            <h1 style="color: white;">Vausnicler Bueno Furin dos Santos </h1>
+            <a href="#projetos"><button class="botaovermelho">Meus Projetos</button></a>
+        </div>
+    </div>
+    <div id="projetos" class="section2 Centralize">
+        <table class="Centralize">
+            <tr>
+                <td style="width:40%"><img class="ImagemProjeto" src=".//projeto.png" alt=""></td>
+                <td style="width:60%;text-align: left;">
+                    <ul style="color: rgb(0, 0, 0);">
+                    Portifolio
+                    <hr>
+                    <li>Criação do projeto portifolio, onde foi desenvolvido com o intuito de aprender sobre html.</li>
+                    <li>Tecnologia usada: HTML </li>
+                    <li>Tecnologia usada: VS Code </li>
+                    <li>Tecnologia usada:</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+        <table class="Centralize">
+            <tr>
+                <td style="width:60%;text-align: left;">
+                    <ul style="color: rgb(0, 0, 0);">
+                    Projeto 2
+                    <hr>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                </ul></td>
+                <td style="width:40%"><img class="ImagemProjeto" src=".//projeto.png" alt=""></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="Centralize">
+            <tr>
+                <td style="width:40%"><img class="ImagemProjeto" src=".//projeto.png" alt=""></td>
+                <td style="width:60%;text-align: left;">
+                    <ul style="color: rgb(0, 0, 0);">
+                    Projeto 3
+                    <hr>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                    <li>Tecnologia usada:</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h5 class="centralize">
+           @ Criado por Vausnicler Furin 
+        </h5>
+    </footer>
+</body>
+</html>
